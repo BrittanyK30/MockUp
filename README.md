@@ -2,8 +2,7 @@
 
 ### Mockup Site
 # Project Objective: 
-#
-
+#Create a mockup of site that sells a popular tech products and services. 
 # Getting Started (details provided upon completion).
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. (details provided upon completion).
 
