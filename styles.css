@@ -3,10 +3,11 @@
 :root {
   --primary-color: #b90415;
   --primary-color-hover: #d3071b;
-  --primary-color: #103063;
-  --secondary-color: #143f62;
-  --secondary-color-hover: #f4f4f4; 
+  --secondary-color: #103063;
+  --secondary-color-hover: #143f85;
+  --light-color: #f4f4f4;
 }
+
 
 body {
   font-family: 'Pt Sans', sans-serif;
@@ -26,7 +27,7 @@ a {
 }
 
 .section { 
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .section-head { 
@@ -38,8 +39,8 @@ a {
   font-size: 2rem;
 }
 
-.section#enterainment {
-  background: url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9') no-repeat bottom/cover;
+section#enterainment {
+  background: url('https://images.unsplash.com/photo-1513710281312-7a43f9cdbfcc?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9') no-repeat bottom/cover;
   padding: 10rem 0;
 }
 
@@ -48,6 +49,7 @@ a {
   grid-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
   text-align: left; 
+   background: url('https://images.unsplash.com/photo-1513710281312-7a43f9cdbfcc?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9') no-repeat bottom/cover;
 }
 
 /* Showcase */
@@ -79,6 +81,32 @@ a {
 }
 
 
+footer .footer-cols { 
+  display: grid;
+  list-style: none;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem;
+  text-align: left;
+  font-size: 14px;
+}
+
+footer .footer-cols ul { 
+  list-style: none;
+}
+
+footer .footer-cols ul li:first-child { 
+  font-size: 1.2 rem; 
+  list-style: none;
+  padding-bottom: 0.5rem;
+  border-bottom: #444 solid 1px;
+  margin-bottom: 1rem;
+}
+
+footer .footer-bottom { 
+  background: #333;
+  padding: 1rem;
+}
 
 /* Utilty Classes across site */
 .container { 
@@ -96,6 +124,7 @@ a {
 .text-center { 
   text-align: center;
 }
+
 
 /* Btn */
 .btn { 
@@ -256,28 +285,9 @@ nav a#openup {
 }
 
   
-/* footer */
 
-footer .footer-cols { 
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 2rem;
-  text-align: left;
-  font-size: 14px;
-}
 
-footer .footer-cols ul li: first-child { 
-  font-size: 1.2 rem; 
-  padding-bottom: 0.5rem;
-  border-bottom: #444 solid 1px;
-  margin-bottom: 1rem;
-}
 
-footer .footer-bottom { 
-  background: #333;
-  padding: 1rem;
-}
 
 @media screen and (max-height: 580px) { 
   #showcase p.lead { 
